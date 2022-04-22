@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+}
+
+button {
+  background-color: red;
+  margin: 20px;
+  padding: 10px;
+  border-style: double;
+  width: 90px;
+  color: darkgray;
+
+  /* 👇 YOUR CODE HERE 👇 */
+}
