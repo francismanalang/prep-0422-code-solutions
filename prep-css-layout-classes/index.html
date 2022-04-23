@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+    img{
+      width: 100%;
+      height: 50%;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    How To Train Your Dragon Trilogy
+  </h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="https://image.posterlounge.com/images/l/1898427.jpg" alt="How To Train Your Dragon">
+        <p>
+          Hiccup (Donald Reignoux) is a Norse teenager from the island of Berk, where fighting dragons are a way of life. His
+          progressive views and weird sense of humor make him a misfit, despite the fact that his father (Emmanuel Jacomy) is
+          chief of the clan. Tossed into dragon-fighting school, he endeavors to prove himself as a true Viking. When he befriends
+          an injured dragon he names Toothless, he has the chance to plot a new course for his people's future.
+        </p>
+      </div>
+      <div class="column">
+        <img src="https://cdn.artinlee.org/wp-content/uploads/2016/09/How-to-Train-Your-Dragon-Poster-1.jpg">
+        <p>
+          Five years have passed since Hiccup and Toothless united the dragons and Vikings of Berk. Now, they spend their time
+          charting the island's unmapped territories. During one of their adventures, the pair discover a secret cave that houses
+          hundreds of wild dragons -- and a mysterious dragon rider who turns out to be Hiccup's long-lost mother, Valka (Cate
+          Blanchett). Hiccup and Toothless then find themselves at the center of a battle to protect Berk from a power-hungry
+          warrior named Drago.
+        </p>
+      </div>
+      <div class="column">
+        <img src="https://cdn.europosters.eu/image/750/posters/how-to-train-your-dragon-3-one-sheet-i70043.jpg">
+        <p>
+          All seems well on the island of Berk as Vikings and dragons live together in peace and harmony. Now a Viking leader,
+          Hiccup finds himself increasingly attracted to Astrid, while his beloved dragon Toothless meets an enchanting creature
+          who captures his eye. When the evil Grimmel launches a devious plan to wipe out all the dragons, Hiccup must unite both
+          clans to find Caldera, a hidden land that holds the key to saving Toothless and his flying friends.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Complete the HTML here -->
+
+</body>
+</html>
